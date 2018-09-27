@@ -1,0 +1,35 @@
+<htmL>
+<title>
+My login Page
+</title>
+<head>
+<style>
+body{
+background-color:Tomato;
+}
+h1 {
+background:pink;
+color:blue;
+}
+</style>
+</head>
+<body>
+<div class="container" style="background:cyan;">
+<center>
+<h1>Sign in</h1>
+<table>
+<tr>
+<th>username:</th>
+<td><input type="text" name="Username" placeholder="Enter the username"></td>
+</tr>
+<tr>
+<th>Password:</th>
+<td><input type="password" name="Password" placeholder="Enter the Password"></td>
+</tr>
+</table>
+<input type="button" name="Submit" value="Submit">
+</center>
+</div>
+</body>
+</html>
+
